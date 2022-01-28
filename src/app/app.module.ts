@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +12,7 @@ import { WarningAlertComponent } from './s1-basics-assignment/warning-alert/warn
 import { SuccessAlertComponent } from './s1-basics-assignment/success-alert/success-alert.component';
 import { S15HandlingFormsComponent } from './s15-handling-forms/s15-handling-forms.component';
 import { TemplateDrivenComponent } from './s15-handling-forms/template-driven/template-driven.component';
+import { ReactiveComponent } from './s15-handling-forms/reactive/reactive.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +24,14 @@ import { TemplateDrivenComponent } from './s15-handling-forms/template-driven/te
     WarningAlertComponent,
     SuccessAlertComponent,
     S15HandlingFormsComponent,
-    TemplateDrivenComponent
+    TemplateDrivenComponent,
+    ReactiveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
