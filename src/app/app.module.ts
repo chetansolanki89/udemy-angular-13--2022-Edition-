@@ -13,6 +13,7 @@ import { SuccessAlertComponent } from './s1-basics-assignment/success-alert/succ
 import { S15HandlingFormsComponent } from './s15-handling-forms/s15-handling-forms.component';
 import { TemplateDrivenComponent } from './s15-handling-forms/template-driven/template-driven.component';
 import { ReactiveComponent } from './s15-handling-forms/reactive/reactive.component';
+import { S17PipesComponent } from './s17-pipes/s17-pipes.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ReactiveComponent } from './s15-handling-forms/reactive/reactive.compon
     SuccessAlertComponent,
     S15HandlingFormsComponent,
     TemplateDrivenComponent,
-    ReactiveComponent
+    ReactiveComponent,
+    S17PipesComponent
   ],
   imports: [
     BrowserModule,
